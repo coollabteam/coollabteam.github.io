@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coollab Animation</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .coollab {
+            font-size: 5em;
+            font-weight: bold;
+            font-family: 'Arial', sans-serif;
+            animation: colorChange 3s infinite;
+        }
+
+        @keyframes colorChange {
+            0% {
+                color: red;
+            }
+            25% {
+                color: blue;
+            }
+            50% {
+                color: green;
+            }
+            75% {
+                color: purple;
+            }
+            100% {
+                color: red;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="coollab">coollab</div>
+</body>
+</html>
+
